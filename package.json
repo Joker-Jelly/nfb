@@ -1,0 +1,23 @@
+{
+  "name": "nfb",
+  "version": "0.0.1",
+  "description": "A filebrowser for node.It is not perfect, but very easy to use",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joker-Jelly/nfb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "filebrowser",
+    "imagebrowser"
+  ],
+  "author": "Joker-Jelly<zl601109@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joker-Jelly/nfb/issues"
+  },
+  "homepage": "https://github.com/Joker-Jelly/nfb",
+  "devDependencies": {}
+}
