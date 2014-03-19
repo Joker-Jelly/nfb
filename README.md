@@ -3,11 +3,9 @@ nfb
 
 Introduction
 ---
-    A filebrowser for node.It is not perfect,but very easy to use
-
-    Front page is base on RoxyFileman,An open source file browser
-
-    Subsequent releases will add more skin, you can switch at any time
+A filebrowser for node.It is not perfect,but very easy to use
+<br/>
+Front page is base on [RoxyFileman](http://www.roxyfileman.com/),An open source file browser
 <br/>
 Require
 ---
