@@ -11,19 +11,22 @@ Require
 ---
     nodejs *
     Express 3.4.6
-
 <br/>
 Getting Started
 ---
 ### Step 1 -- Move pages
 Move the folder that in the modules folder named  “pages”  to the path where you like,and you can rename it with any other word
 <br/><br/>
-### Step 2 -- Acquiring module
+### Step 2 -- Install module
+        //with npm on windows
+        > npm install nfb 
+<br/><br/>
+### Step 3 -- Acquiring module
         //app is an instance of Express
         var app = require("express")();
-        equire('nfb')(app);
+        require('nfb')(app);
 <br/><br/>
-### Step 3 -- Use in your Project
+### Step 4 -- Use in your Project
 ##### You can simplely use it like this:
     
     //btn_openFileBrowser is the ID of a button
@@ -36,14 +39,14 @@ Move the folder that in the modules folder named  “pages”  to the path where
 ##### You can set like this:
     //change option in conf.json(pages folder)
     "INTEGRATION":"CKEDITOR"
-<br/>
+    
+    
     //add option in config.js(example of CKEditor)
     //path is the location of index.html(pages folder)
     config.filebrowserBrowseUrl = path;
 <br/>
 License
 ---
-
 The MIT License (MIT)
 
 Copyright (c) 2014 [Joker-Jelly](https://github.com/Joker-Jelly/)
